@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E890DB1BD5FA0F00973FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E890DA1BD5FA0F00973FA7 /* AppDelegate.m */; };
+		47E890DD1BD5FA0F00973FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E890DC1BD5FA0F00973FA7 /* main.m */; };
+		47E890DF1BD5FA0F00973FA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E890DE1BD5FA0F00973FA7 /* Images.xcassets */; };
+		47E890E21BD5FA0F00973FA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E890E01BD5FA0F00973FA7 /* MainMenu.xib */; };
+		47E890EE1BD5FA1000973FA7 /* GoJsPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E890ED1BD5FA1000973FA7 /* GoJsPOCTests.m */; };
+		47E890F81BD5FCF700973FA7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E890F71BD5FCF700973FA7 /* WebKit.framework */; };
+		47E890FC1BD5FF8D00973FA7 /* go-debug.js in Resources */ = {isa = PBXBuildFile; fileRef = 47E890F91BD5FF8D00973FA7 /* go-debug.js */; };
+		47E890FD1BD5FF8D00973FA7 /* go.js in Resources */ = {isa = PBXBuildFile; fileRef = 47E890FA1BD5FF8D00973FA7 /* go.js */; };
+		47E890FE1BD5FF8D00973FA7 /* hello.html in Resources */ = {isa = PBXBuildFile; fileRef = 47E890FB1BD5FF8D00973FA7 /* hello.html */; };
+		47E891021BD600CA00973FA7 /* preview.js in Resources */ = {isa = PBXBuildFile; fileRef = 47E891011BD600CA00973FA7 /* preview.js */; };
+		47E891041BD600D100973FA7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 47E891031BD600D100973FA7 /* images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47E890E81BD5FA1000973FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47E890CC1BD5FA0F00973FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E890D31BD5FA0F00973FA7;
+			remoteInfo = GoJsPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47E890D41BD5FA0F00973FA7 /* GoJsPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoJsPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E890D81BD5FA0F00973FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E890D91BD5FA0F00973FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47E890DA1BD5FA0F00973FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47E890DC1BD5FA0F00973FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47E890DE1BD5FA0F00973FA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47E890E11BD5FA0F00973FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47E890E71BD5FA1000973FA7 /* GoJsPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoJsPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E890EC1BD5FA1000973FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E890ED1BD5FA1000973FA7 /* GoJsPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoJsPOCTests.m; sourceTree = "<group>"; };
+		47E890F71BD5FCF700973FA7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		47E890F91BD5FF8D00973FA7 /* go-debug.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "go-debug.js"; sourceTree = "<group>"; };
+		47E890FA1BD5FF8D00973FA7 /* go.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = go.js; sourceTree = "<group>"; };
+		47E890FB1BD5FF8D00973FA7 /* hello.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hello.html; sourceTree = "<group>"; };
+		47E891011BD600CA00973FA7 /* preview.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = preview.js; sourceTree = "<group>"; };
+		47E891031BD600D100973FA7 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E890D11BD5FA0F00973FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E890F81BD5FCF700973FA7 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E890E41BD5FA1000973FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E890CB1BD5FA0F00973FA7 = {
+			isa = PBXGroup;
+			children = (
+				47E890F71BD5FCF700973FA7 /* WebKit.framework */,
+				47E890D61BD5FA0F00973FA7 /* GoJsPOC */,
+				47E890EA1BD5FA1000973FA7 /* GoJsPOCTests */,
+				47E890D51BD5FA0F00973FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E890D51BD5FA0F00973FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E890D41BD5FA0F00973FA7 /* GoJsPOC.app */,
+				47E890E71BD5FA1000973FA7 /* GoJsPOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E890D61BD5FA0F00973FA7 /* GoJsPOC */ = {
+			isa = PBXGroup;
+			children = (
+				47E891031BD600D100973FA7 /* images */,
+				47E890FA1BD5FF8D00973FA7 /* go.js */,
+				47E891011BD600CA00973FA7 /* preview.js */,
+				47E890F91BD5FF8D00973FA7 /* go-debug.js */,
+				47E890FB1BD5FF8D00973FA7 /* hello.html */,
+				47E890D91BD5FA0F00973FA7 /* AppDelegate.h */,
+				47E890DA1BD5FA0F00973FA7 /* AppDelegate.m */,
+				47E890DE1BD5FA0F00973FA7 /* Images.xcassets */,
+				47E890E01BD5FA0F00973FA7 /* MainMenu.xib */,
+				47E890D71BD5FA0F00973FA7 /* Supporting Files */,
+			);
+			path = GoJsPOC;
+			sourceTree = "<group>";
+		};
+		47E890D71BD5FA0F00973FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E890D81BD5FA0F00973FA7 /* Info.plist */,
+				47E890DC1BD5FA0F00973FA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47E890EA1BD5FA1000973FA7 /* GoJsPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				47E890ED1BD5FA1000973FA7 /* GoJsPOCTests.m */,
+				47E890EB1BD5FA1000973FA7 /* Supporting Files */,
+			);
+			path = GoJsPOCTests;
+			sourceTree = "<group>";
+		};
+		47E890EB1BD5FA1000973FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E890EC1BD5FA1000973FA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E890D31BD5FA0F00973FA7 /* GoJsPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E890F11BD5FA1000973FA7 /* Build configuration list for PBXNativeTarget "GoJsPOC" */;
+			buildPhases = (
+				47E890D01BD5FA0F00973FA7 /* Sources */,
+				47E890D11BD5FA0F00973FA7 /* Frameworks */,
+				47E890D21BD5FA0F00973FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoJsPOC;
+			productName = GoJsPOC;
+			productReference = 47E890D41BD5FA0F00973FA7 /* GoJsPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47E890E61BD5FA1000973FA7 /* GoJsPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E890F41BD5FA1000973FA7 /* Build configuration list for PBXNativeTarget "GoJsPOCTests" */;
+			buildPhases = (
+				47E890E31BD5FA1000973FA7 /* Sources */,
+				47E890E41BD5FA1000973FA7 /* Frameworks */,
+				47E890E51BD5FA1000973FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47E890E91BD5FA1000973FA7 /* PBXTargetDependency */,
+			);
+			name = GoJsPOCTests;
+			productName = GoJsPOCTests;
+			productReference = 47E890E71BD5FA1000973FA7 /* GoJsPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E890CC1BD5FA0F00973FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Rusmin Susanto";
+				TargetAttributes = {
+					47E890D31BD5FA0F00973FA7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					47E890E61BD5FA1000973FA7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 47E890D31BD5FA0F00973FA7;
+					};
+				};
+			};
+			buildConfigurationList = 47E890CF1BD5FA0F00973FA7 /* Build configuration list for PBXProject "GoJsPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E890CB1BD5FA0F00973FA7;
+			productRefGroup = 47E890D51BD5FA0F00973FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E890D31BD5FA0F00973FA7 /* GoJsPOC */,
+				47E890E61BD5FA1000973FA7 /* GoJsPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E890D21BD5FA0F00973FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E890FC1BD5FF8D00973FA7 /* go-debug.js in Resources */,
+				47E891021BD600CA00973FA7 /* preview.js in Resources */,
+				47E890DF1BD5FA0F00973FA7 /* Images.xcassets in Resources */,
+				47E890FE1BD5FF8D00973FA7 /* hello.html in Resources */,
+				47E890FD1BD5FF8D00973FA7 /* go.js in Resources */,
+				47E891041BD600D100973FA7 /* images in Resources */,
+				47E890E21BD5FA0F00973FA7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E890E51BD5FA1000973FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E890D01BD5FA0F00973FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E890DD1BD5FA0F00973FA7 /* main.m in Sources */,
+				47E890DB1BD5FA0F00973FA7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E890E31BD5FA1000973FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E890EE1BD5FA1000973FA7 /* GoJsPOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47E890E91BD5FA1000973FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47E890D31BD5FA0F00973FA7 /* GoJsPOC */;
+			targetProxy = 47E890E81BD5FA1000973FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47E890E01BD5FA0F00973FA7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E890E11BD5FA0F00973FA7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E890EF1BD5FA1000973FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47E890F01BD5FA1000973FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47E890F21BD5FA1000973FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoJsPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47E890F31BD5FA1000973FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GoJsPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47E890F51BD5FA1000973FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoJsPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoJsPOC.app/Contents/MacOS/GoJsPOC";
+			};
+			name = Debug;
+		};
+		47E890F61BD5FA1000973FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoJsPOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoJsPOC.app/Contents/MacOS/GoJsPOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E890CF1BD5FA0F00973FA7 /* Build configuration list for PBXProject "GoJsPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E890EF1BD5FA1000973FA7 /* Debug */,
+				47E890F01BD5FA1000973FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E890F11BD5FA1000973FA7 /* Build configuration list for PBXNativeTarget "GoJsPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E890F21BD5FA1000973FA7 /* Debug */,
+				47E890F31BD5FA1000973FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47E890F41BD5FA1000973FA7 /* Build configuration list for PBXNativeTarget "GoJsPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E890F51BD5FA1000973FA7 /* Debug */,
+				47E890F61BD5FA1000973FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47E890CC1BD5FA0F00973FA7 /* Project object */;
+}
